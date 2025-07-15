@@ -28,3 +28,23 @@ This project explores whether automatically generated sentiment features can imp
 │
 ├── README.md # Project overview and structure
 
+
+---
+
+## Tools & Techniques
+
+- **FinBERT** for domain-specific sentiment classification
+- **DistilBERT** and **Logistic Regression** for intent classification
+- **TF-IDF + Scikit-learn** for fast experiments
+- **Manual annotation** for validation and chatbot template mapping
+
+---
+
+## Key Findings
+
+- Adding sentiment improves performance in some edge cases but not significantly.
+- Lightweight models (e.g., logistic regression) are practical when working under computational constraints.
+- Chatbot responses that adapt to user sentiment may improve user trust and satisfaction.
+
+---
+
